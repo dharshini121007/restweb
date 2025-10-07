@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(50, 110, 26);
+    color: black;
+    size: 10px;
+    margin: 0;
+    bottom: 0;
+    top:10%;
+}
+header{
+    background-color: yellow;
+    color:rgb(207, 9, 42);
+    text-align: center;
+}
+.team{
+    display: flex;
+  flex-flow: row;
+   align-items: flex-start;
+}
+.person{
+    padding: 15px;
+    top: 10%;
+    bottom: 10%;
+    margin: auto;
+    border: 3px solid rgb(6, 6, 6);
+    flex-wrap: nowrap;
+    font-size:large;
+    border-radius: 10px;
+}
+img{
+     width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom:0;
+    position:fixed;
+    color:black;
+
+}

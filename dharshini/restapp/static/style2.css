@@ -1,0 +1,53 @@
+body
+{
+    background-color: rgb(55, 193, 168);
+    color: black;
+    size: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+     background-color: rgb(100, 13, 13);
+     color:cornsilk;
+     text-align: center;
+}
+nav a
+{
+   color:white;
+   font-size: x-large;
+}
+.container
+{
+   display: flex;
+  flex-flow: row;
+   align-items: flex-start;
+}
+
+
+.foods
+{
+    padding: 10px;
+    width:100px;
+    height:150px;
+    margin: auto;
+    border: 4px solid rgb(6, 6, 6);
+    flex-wrap: nowrap;
+    font-size: small;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom:0;
+    position:fixed;
+    color:black;
+
+}
